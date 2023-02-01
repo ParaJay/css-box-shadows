@@ -1,0 +1,27 @@
+div {
+    border: 1px solid;
+}
+
+/*
+    box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit;
+*/
+
+#ex1 {
+    box-shadow: 10px 10px 8px blue;
+}
+
+#ex2 {
+    box-shadow: -5px 10px 8px red;
+}
+
+#ex3 {
+    box-shadow: 10px 5px 8px green inset;
+}
+
+#ex4 {
+    box-shadow: 10px 5px 8px 10px purple;
+}
+
+#ex5 {
+    box-shadow: 10px 12px 12px orange, -10px -10px 8px pink;
+}
